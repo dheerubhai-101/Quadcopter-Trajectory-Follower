@@ -16,4 +16,3 @@ e_dot= s_des(2)-s(2);
 u= m*(zdes_dd+ kp*e+kv*e_dot+g);
 
 end
-
