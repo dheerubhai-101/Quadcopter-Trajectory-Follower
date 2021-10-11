@@ -11,8 +11,7 @@ kp=100;
 kv=16;
 %u = m*g;
 % FILL IN YOUR CODE HERE
-e=s_des(1)-s(1);
-e_dot= s_des(2)-s(2);
-u= m*(zdes_dd+ kp*e+kv*e_dot+g);
+e=s_des-s;
+u= m*(zdes_dd+ kp*e(1)+kv*e(2)+g);
 
 end
