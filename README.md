@@ -13,16 +13,17 @@ The main focus of this project is to design a quadcopter capable of autonomously
 ### 1D Quadcopter
 ![height_control](https://user-images.githubusercontent.com/83055325/136782761-7e5b63b7-a720-4b70-9cf9-a5beeb34c561.gif)
 
-- High Kp value to reach the destination swiftly- 100
-- Moderately low Kv value just enough to stop overshoot- 16 
+- High proportional gain value to reach the destination swiftly- 100
+- Moderately low differential gain value just enough to stop overshoot- 16 
 
 ### 2D Quadcopter
+- Quadcopter designed is gradual and linear in motion, i.e near hover configuration
+- Thrust(u1) must be high for greater acceleration in order to propel forward and reach the destination quickly
+- Moment(u2) must be low to satisfy near-hover conditions
+- Accordingly the quadcopter designed moves as below with no aggressive manuevers
 
 #### Line Trajectory
 ![Quadcopter Line 2 0](https://user-images.githubusercontent.com/83055325/136783024-8afe54a8-e48c-4abe-bb46-f63aba38f974.gif)
-
--
-
 
 
 #### Sine Trajectory
