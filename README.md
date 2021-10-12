@@ -15,8 +15,8 @@ The first three activities majorly focussing on intuition of control problem
 ### 1D Quadcopter
 ![height_control](https://user-images.githubusercontent.com/83055325/136782761-7e5b63b7-a720-4b70-9cf9-a5beeb34c561.gif)
 
-- High proportional gain value to reach the destination swiftly- 100
-- Moderately low differential gain value just enough to stop overshoot- 16 
+- High *proportional gain* to reach the destination swiftly- 100
+- Moderately low *differential gain* just enough to stop overshoot- 16 
 
 ### 2D Quadcopter
 - Quadcopter designed is *uniform* and *linear* in motion/input, i.e near hover configuration
