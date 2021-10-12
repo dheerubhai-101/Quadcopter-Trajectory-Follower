@@ -20,7 +20,7 @@ The first three activities majorly focussing on intuition of control problem
 
 ### 2D Quadcopter
 - Quadcopter designed is *uniform* and *linear* in motion/input, i.e near hover configuration
-- Thrust(u1) must be high for greater acceleration in order to propel forward and reach the destination quickly
+- Thrust(u1) must be high for *greater acceleration* in order to propel forward and reach the destination quickly
 - Moment(u2) must be low to satisfy near-hover conditions
 - Accordingly the quadcopter designed moves as below with no aggressive manuevers
 
