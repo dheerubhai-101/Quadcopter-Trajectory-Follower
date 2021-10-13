@@ -25,10 +25,10 @@ The first three activities majorly focussing on intuition of control problem
 - Accordingly the quadcopter designed moves as below with no aggressive manuevers
 
 #### Line Trajectory
-![Quadcopter Line 2 0](https://user-images.githubusercontent.com/83055325/136783024-8afe54a8-e48c-4abe-bb46-f63aba38f974.gif)
+![final_control_2d](https://user-images.githubusercontent.com/83055325/137097834-3dc789b6-49f7-40db-96d7-99a7e39cfd65.gif)
 
 
 #### Sine Trajectory
-![Quadcopter Sine 2 0](https://user-images.githubusercontent.com/83055325/136811818-b240f9da-c332-4d17-bd4a-fd6ab541ecf2.gif)
+![final_control_2d sine](https://user-images.githubusercontent.com/83055325/137097853-1e7b0695-600a-4fb5-a023-fca798d7e2ce.gif)
 
 Analysis of *ideal linearized models* enable better understanding and give the intuition to work with *complex non-linear systems* analysis and design, which is the main focus of this project.
