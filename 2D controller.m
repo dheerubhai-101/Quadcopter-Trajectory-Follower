@@ -16,8 +16,8 @@ function [ u1, u2 ] = controller(~, state, des_state, params)
 m=params.mass;
 g=params.gravity;
 Ixx=params.Ixx;
-kp1=300;
-kd1=50;
+kp1=500;
+kd1=100;
 y_dd=des_state.acc(1);
 z_dd=des_state.acc(2);
 % FILL IN YOUR CODE HERE
@@ -25,10 +25,10 @@ e_z=des_state.pos(2)-state.pos(2);
 e_zdot=des_state.vel(2)-state.vel(2);
 e_y=(des_state.pos(1)-state.pos(1));
 e_ydot=des_state.vel(1)-state.vel(1);
-kp=5;
-kv=30;
-kp2=200;
-kd2=40;
+kp=50;
+kv=10;
+kp2=1000;
+kd2=50;
     
 u1 = m*(g+z_dd+kp1*e_z+kd1*e_zdot);
 phi_c=-(y_dd+kp*e_y+kv*e_ydot)/g;
