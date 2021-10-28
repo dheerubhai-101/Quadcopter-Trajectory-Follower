@@ -11,7 +11,7 @@ function [ u1, u2 ] = controller(~, state, des_state, params)
 %
 %   params: robot parameters
 
-%   Using these current and desired states, you have to compute the desired
+%   Using these current and desired states, the desired you has to computed
 %   controls
 m=params.mass;
 g=params.gravity;
